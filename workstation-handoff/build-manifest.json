@@ -1,0 +1,10 @@
+{
+  "contract_version": "1.0",
+  "build_id": "animation-site-mvp-v1",
+  "source_base_commit": "6dd4c31da5b24490bea9b643d14bb4167e582029",
+  "source_state": "Git source handoff; Site not deployed",
+  "source_branch": "handoff/animation-management-mvp",
+  "schema_sha256": "7d2c67ec24e545464f01866f456795959d5cb7177881579a428174ee9fbd1a4d",
+  "contains_user_media": false,
+  "source_tree_sha256": "c842e9f42feb6fbb80d9b1ad7a14d73f7a2175db254b00de86df33e974aabd98"
+}

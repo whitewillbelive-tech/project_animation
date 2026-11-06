@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "project_id": "project-fixture",
+  "created_at": "2026-11-06T00:00:00Z",
+  "producer": {
+    "name": "workstation-contract-fixture",
+    "version": "1",
+    "is_fixture": true
+  },
+  "target": {
+    "task_id": "task-fixture",
+    "episode_id": null,
+    "scene_id": null,
+    "shot_id": null
+  },
+  "package_id": "pkg-result-fixture-001",
+  "package_type": "work_result",
+  "request_package_id": "pkg-request-fixture-001",
+  "run_id": "run-fixture-001",
+  "attempt_id": "attempt-fixture-001",
+  "job_state": "succeeded",
+  "used_inputs": {
+    "source_revision": 3,
+    "input_assets": []
+  },
+  "execution": {
+    "started_at": "2026-11-06T00:00:00Z",
+    "finished_at": "2026-11-06T00:00:01Z",
+    "module_version": "fixture-1",
+    "tool": "fixture generator",
+    "tool_version": "1",
+    "model_version": "none",
+    "settings": {},
+    "prompt": "계약 검증용 단색 1픽셀 PNG를 반환한다. 실제 제작 지시가 아니다."
+  },
+  "output_assets": [
+    {
+      "asset_id": "asset-fixture-001",
+      "revision": 1,
+      "sha256": "a81bc743f9478924d161bebff02b4ad2781a00f8731c3ff9e080d080a1cf3789",
+      "title": "샘플: 계약 검증용 1픽셀 PNG",
+      "mime_type": "image/png",
+      "file_path": "review/sample.png"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "테스트 fixture이며 실제 제작 결과가 아닙니다."
+  ],
+  "cost": {
+    "kind": "estimated",
+    "amount": 0,
+    "currency": "USD"
+  },
+  "files": [
+    {
+      "path": "review/sample.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "mime_type": "image/png",
+      "content_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRz0AAAAASUVORK5CYII="
+    }
+  ]
+}

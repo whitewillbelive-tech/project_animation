@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "package_id": "pkg-request-fixture-001",
+  "package_type": "work_request",
+  "project_id": "project-fixture",
+  "created_at": "2026-11-06T00:00:00Z",
+  "producer": {
+    "name": "animation-site",
+    "version": "animation-site-mvp-v1",
+    "is_fixture": true
+  },
+  "target": {
+    "task_id": "task-fixture",
+    "episode_id": null,
+    "scene_id": null,
+    "shot_id": null
+  },
+  "source_revision": 3,
+  "input_assets": [],
+  "approved_instruction": {
+    "text": "계약 검증용 단색 1픽셀 PNG를 반환한다. 실제 제작 지시가 아니다.",
+    "settings": {
+      "input_path": "/home/example/input.png"
+    },
+    "approved_by": "fixture-owner",
+    "approved_at": "2026-11-06T00:00:00Z"
+  },
+  "output_spec": "검토용 PNG, 1×1 픽셀",
+  "acceptance": "체크섬과 형식 검증. 예술적 승인은 별도.",
+  "files": []
+}
